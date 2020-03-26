@@ -24,4 +24,4 @@ Run : Download or clone this repository and open the folder in VS Code. Right cl
 ![](./preview.png)
 
 #### Written By
-[Luqman Quadri](https://linkedin.com/in/sql)
+[Luqman Quadri](https://github.com/lookquad)
