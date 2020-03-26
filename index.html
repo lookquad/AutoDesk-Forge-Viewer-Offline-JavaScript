@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Basic 3D Viewer</title>
+
+  <link rel="stylesheet"  type="text/css" href="https://developer.api.autodesk.com/modelderivative/v2/viewers/style.min.css?v=v7.*">
+  <script language="JavaScript" src="https://developer.api.autodesk.com/modelderivative/v2/viewers/viewer3D.min.js?v=v7.*"></script>
+</head>
+
+<body>
+  <div id="container"></div>
+
+  <script>
+      var container = document.getElementById('container');
+      var viewer = new Autodesk.Viewing.Private.GuiViewer3D(container);
+      var options = {
+          'env' : 'Local',
+          'document' : './model/output.svf'
+      };
+      Autodesk.Viewing.Initializer(options, function() {
+        viewer.start(options.document, options);
+      });
+  </script>
+</body>
+
+</html>
