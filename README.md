@@ -15,7 +15,7 @@ var options = {
     };
 ````
 
-Assuming you have [VS Code](http://localhost:8000)  with [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension installed. 
+Assuming you have [VS Code](https://code.visualstudio.com/)  with [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension installed. 
 
 Run : Download or clone this repository and open the folder in VS Code. Right click on the index.html file and select open with live server.
 
